@@ -1,0 +1,143 @@
+{
+  "account": {
+    "name": "Name",
+    "email": "User Email",
+    "number": "User Number",
+    "success": "Updated successfully",
+    "my_account": "My Account"
+  },
+  "address": {
+    "my_address": "My Address",
+    "address": "Address",
+    "home": "Home",
+    "office": "Office",
+    "other": "Other",
+    "select_location": "Select Location Map",
+    "house": "House",
+    "street": "Street",
+    "zone": "Zone",
+    "saved": "Saved"
+  },
+  "appname": {
+    "app_name": "Qtamween"
+  },
+  "cart": {
+    "cart": "Cart",
+    "empty_cart": "Your Cart is Empty",
+    "clear_cart": "Do you want to clear the cart",
+    "add_cart": "Add to Cart",
+    "bill_amount": "Bill amount",
+    "delivery_charge": "Delivery charge",
+    "yet_to": "Yet to be calculated",
+    "total_amount": "Total amount",
+    "place_order": "Place order",
+    "outofstock": "Please remove the products which are not in stock"
+  },
+  "home": {
+    "featured": "Featured Products",
+    "offer": "Offer Products",
+    "more": "More",
+    "searchtext": "Search for products here"
+  },
+  "language": {
+    "language": "Language"
+  },
+  "login": {
+    "login": "Login",
+    "number": "Enter Your Number",
+    "sms": "Enter SMS Code",
+    "verify": "Verify",
+    "logout": "Logout"
+  },
+  "menu": {
+    "aboutus": "About Us",
+    "privacy": "Privacy",
+    "terms": "Terms and Conditions",
+    "help": "Help",
+    "share": "Share To A Friend",
+    "language": "Change Language"
+  },
+  "msg": {
+    "added_to_cart": "Product Added to Cart",
+    "minimum_quatity": "Product Maximum Quantity Reached/ Product Out of Stock",
+    "remover-wishlist": "Product Removed from Wishlist",
+    "added-wishlist": "Product Added to Wishlist"
+  },
+  "my_orders": {
+    "order_details": "Order Details",
+    "bill_number": "Bill Number",
+    "date": "Date"
+  },
+  "orders": {
+    "my_orders": "My Orders",
+    "total": "Total",
+    "status": "Status",
+    "pending": "Pending",
+    "clear": "Clear",
+    "please_wait": "Please wait..."
+  },
+  "other": {
+    "logout_msg":"Do you want to logout",
+    "save": "Save",
+    "continue": "Continue",
+    "remove": "Remove",
+    "clear": "Clear",
+    "no": "No",
+    "yes": "Yes",
+    "confirm": "Confirm",
+    "qty": "QTY:",
+    "change_language": "Do you want to change the language ?",
+    "status": "Status",
+    "total": "Total",
+    "terms":"Terms",
+    "support":"Support",
+    "sdata":"For Support and Enquiry, please call us to 33100044",
+    "noslot":"There is no time slot available for today!",
+    "arabic":"Arabic"
+  },
+  "place_order": {
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "confirm_order": "Confirm Order",
+    "add_note": "Add Note",
+    "place_order": "Place Order",
+    "select_time": "Select Delivery Time",
+    "delivery_address": "Delivery Address",
+    "order_placed": "Order Placed"
+  },
+  "product": {
+    "size": "Size",
+    "about": "About Product",
+    "add_to_cart": "Add To Cart",
+    "related_products": "Related Products",
+    "productname": "Product Names"
+  },
+  "register": {
+    "email": "Your Email(Optional)",
+    "name": "Your Name(Optional)"
+  },
+  "search": {
+    "search_text": "Search For Products"
+  },
+  "share": {
+    "share": "Share to friend"
+  },
+  "wishlist": {
+    "wishlist": "Wishlist"
+  },
+  "new":{
+    "order_placed":"Your order has been placed",
+    "order_id":"Order id",
+    "success":"Success",
+    "ok":"OK",
+    "failed":"Failed",
+    "wishlistEmpty":"Your wishlist is empty!!",
+    "update_title":"Update Available",
+    "update_content":"Do you want to update ?",
+    "update":"Update",
+    "add":"Add",
+    "region":"Choose a region",
+    "addloc":"Please specify a delivery address",
+    "location":"Select Location"
+  }
+}

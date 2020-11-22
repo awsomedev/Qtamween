@@ -1,0 +1,18 @@
+{
+    "new":{
+        "terms":"Terms",
+        "menu":"Menu",
+        "save":"Save",
+        "language":"Language",
+        "confirm":"Confirm",
+        "logout_confirmation":"Do you want to log out ?",
+        "yes":"Yes",
+        "no":"No",
+        "Login":"Login",
+        "enter_number":"Enter your number",
+        "verification":"Verification Code",
+        "verify":"Verify",
+        "remove":"Remove"
+
+    }
+}

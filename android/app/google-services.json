@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "307816314009",
+    "firebase_url": "https://qtamween.firebaseio.com",
+    "project_id": "qtamween",
+    "storage_bucket": "qtamween.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307816314009:android:d2e6995f95fea9ff8cb408",
+        "android_client_info": {
+          "package_name": "com.qweb.qtamween"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307816314009-mdpr1ivknodeiednm68g7fgdp397otd9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qweb.qtamween",
+            "certificate_hash": "1f400a49959abccef35a609ee4f4e44d91206a0c"
+          }
+        },
+        {
+          "client_id": "307816314009-u13aqrkqmf9abuohqtoblusfj8of7k69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qweb.qtamween",
+            "certificate_hash": "9e9fb7c3bca018ab78e379ed23c73a92b4b3a11b"
+          }
+        },
+        {
+          "client_id": "307816314009-cjqsl4ol5irfn7g40td0jf4cf21o3oas.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qweb.qtamween",
+            "certificate_hash": "2c3119ba321d8014d2d8c85ad43b3c0184f189db"
+          }
+        },
+        {
+          "client_id": "307816314009-vicfnn7b1oag6i136264pgr2i5evkdp1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qweb.qtamween",
+            "certificate_hash": "a02c2ef33cc7ff0168f5d4c7f0100afe147431c2"
+          }
+        },
+        {
+          "client_id": "307816314009-k8390ef29nq10vr0vr1vpg96g30a9a88.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.qweb.qtamween",
+            "certificate_hash": "8490e39169afdec119689b13e618a75dcd3edf19"
+          }
+        },
+        {
+          "client_id": "307816314009-01ed1qo0hp64j1sq0kvie2ur5vg1c7qq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOKcoGynKC3M0X8P2wy0pOq5jA94-qquk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307816314009-01ed1qo0hp64j1sq0kvie2ur5vg1c7qq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "307816314009-j5q939iv559mhi34hp396sq4b8egcoel.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.qweb.qtamween"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
