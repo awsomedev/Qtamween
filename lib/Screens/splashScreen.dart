@@ -56,7 +56,7 @@ class _SplashScreenState extends State<SplashScreen> {
                         navigateReplace(context, LoginNew());
                       } else {
                         var pref = await SharedPreferences.getInstance();
-                        if (pref.getString('uid') == null) {
+                        if (pref.getString('uid2') == null) {
                           navigateReplace(context, LoginNew());
                         } else {
                           navigateReplace(context, HomeScreen());
@@ -73,7 +73,7 @@ class _SplashScreenState extends State<SplashScreen> {
         } else {
           print(FirebaseAuth.instance.currentUser.uid);
           var pref = await SharedPreferences.getInstance();
-          if (pref.getString('uid') == null) {
+          if (pref.getString('uid2') == null) {
             navigateReplace(context, LoginNew());
           } else {
             navigateReplace(context, HomeScreen());

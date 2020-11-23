@@ -19,7 +19,7 @@ Future<String> getLanguage() async {
 
 Future<String> getUserId() async {
   var pref = await SharedPreferences.getInstance();
-  return pref.getString('uid');
+  return pref.getString('uid2');
 }
 
 Future<HomeSliderClass> getSlider() async {

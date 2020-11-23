@@ -34,7 +34,7 @@ class _SelectLangScreenState extends State<SelectLangScreen> {
                   var pref = await SharedPreferences.getInstance();
                   EasyLocalization.of(context).locale = Locale('en', 'US');
                   pref.setString('language', '');
-                  pref.setString('uid', data.customerDetails.customersId);
+                  pref.setString('uid2', data.customerDetails.customersId);
                   pref.setString('uname', data.customerDetails.customersName);
                   navigateRemove(context, HomeScreen());
                 },
@@ -50,7 +50,7 @@ class _SelectLangScreenState extends State<SelectLangScreen> {
                   EasyLocalization.of(context).locale = Locale('ar', 'DZ');
                   pref.setString('language', 'ar');
                   var data = await loginApi(widget.email, widget.name);
-                  pref.setString('uid', data.customerDetails.customersId);
+                  pref.setString('uid2', data.customerDetails.customersId);
                   pref.setString('uname', data.customerDetails.customersName);
                   navigateRemove(context, HomeScreen());
                 },
