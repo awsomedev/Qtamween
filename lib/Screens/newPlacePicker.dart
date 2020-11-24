@@ -4,12 +4,11 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
-import 'package:location/location.dart';
 import 'package:http/http.dart' as http;
+import 'package:location/location.dart';
 import 'package:place_picker/entities/entities.dart';
 import 'package:place_picker/uuid.dart';
 import 'package:place_picker/widgets/widgets.dart';
-import 'package:qtameen/Widgets/widgets.dart';
 
 /// Place picker widget made with map widget from
 /// [google_maps_flutter](https://github.com/flutter/plugins/tree/master/packages/google_maps_flutter)
@@ -120,8 +119,10 @@ class PlacePickerNewState extends State<PlacePickerNew> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      SelectPlaceAction(getLocationName(),
-                          () => Navigator.of(context).pop(this.locationResult)),
+                      SelectPlaceAction(
+                          getLocationName(),
+                          () => Navigator.of(context).pop(this.locationResult),
+                          ''),
                       Divider(height: 8),
                       Padding(
                         child: Text("Nearby Places",

@@ -1,4 +1,4 @@
-import 'package:cool_alert/cool_alert.dart';
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:modal_progress_hud/modal_progress_hud.dart';
 import 'package:qtameen/Model/cartModel.dart';
@@ -6,7 +6,7 @@ import 'package:qtameen/Model/confirmModel.dart';
 import 'package:qtameen/Screens/HomeScreen.dart';
 import 'package:qtameen/Widgets/widgets.dart';
 import 'package:qtameen/api/api.dart';
-import 'package:easy_localization/easy_localization.dart';
+import 'package:qtameen/cool/src/widgets/CoolAlert.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 import 'detailAddress.dart';
