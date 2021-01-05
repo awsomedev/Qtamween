@@ -1,5 +1,5 @@
-import 'package:cool_alert/cool_alert.dart';
 import 'package:flutter/widgets.dart';
+import 'package:qtameen/cool/src/widgets/CoolAlert.dart';
 
 class CoolAlertOptions {
   String title;
