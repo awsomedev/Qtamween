@@ -109,13 +109,33 @@ class _ShippingDetailsState extends State<ShippingDetails> {
                   // height: height,
                   margin: EdgeInsets.all(10),
                   child: FutureBuilder<ConfirmOrderClass>(
-                    future: confirmOrderApi((dateTime.day.toString().length == 1
-                            ? '0${dateTime.day.toString()}'
-                            : dateTime.day.toString()) +
-                        '/' +
-                        dateTime.month.toString() +
-                        '/' +
-                        dateTime.year.toString()),
+                    future: confirmOrderApi(dateTime.day.toString().length == 1
+                        ? dateTime.month.toString().length == 1
+                            ? '0' +
+                                dateTime.day.toString() +
+                                '/' +
+                                '0' +
+                                dateTime.month.toString() +
+                                '/' +
+                                dateTime.year.toString()
+                            : '0' +
+                                dateTime.day.toString() +
+                                '/' +
+                                dateTime.month.toString() +
+                                '/' +
+                                dateTime.year.toString()
+                        : dateTime.month.toString().length == 1
+                            ? dateTime.day.toString() +
+                                '/' +
+                                '0' +
+                                dateTime.month.toString() +
+                                '/' +
+                                dateTime.year.toString()
+                            : dateTime.day.toString() +
+                                '/' +
+                                dateTime.month.toString() +
+                                '/' +
+                                dateTime.year.toString()),
                     builder: (context, snapshot) {
                       if (snapshot.hasData) {
                         List<Timesloat> timeSlots = [];
@@ -461,7 +481,7 @@ class _ShippingDetailsState extends State<ShippingDetails> {
                                                             .timeSlotId
                                                     ? Colors.white
                                                     : Colors.blue[500],
-                                                fontSize: width * .03,
+                                                fontSize: width * .029,
                                                 fontWeight: FontWeight.w700,
                                               ),
                                             ),
@@ -617,11 +637,39 @@ class _ShippingDetailsState extends State<ShippingDetails> {
                                       spin = true;
                                     });
                                     OrderSuccessClass msg = await placeOrderApi(
-                                        dateTime.day.toString() +
-                                            '/' +
-                                            dateTime.month.toString() +
-                                            '/' +
-                                            dateTime.year.toString(),
+                                        dateTime.day.toString().length == 1
+                                            ? dateTime.month
+                                                        .toString()
+                                                        .length ==
+                                                    1
+                                                ? '0' +
+                                                    dateTime.day.toString() +
+                                                    '/' +
+                                                    '0' +
+                                                    dateTime.month.toString() +
+                                                    '/' +
+                                                    dateTime.year.toString()
+                                                : '0' +
+                                                    dateTime.day.toString() +
+                                                    '/' +
+                                                    dateTime.month.toString() +
+                                                    '/' +
+                                                    dateTime.year.toString()
+                                            : dateTime.month
+                                                        .toString()
+                                                        .length ==
+                                                    1
+                                                ? dateTime.day.toString() +
+                                                    '/' +
+                                                    '0' +
+                                                    dateTime.month.toString() +
+                                                    '/' +
+                                                    dateTime.year.toString()
+                                                : dateTime.day.toString() +
+                                                    '/' +
+                                                    dateTime.month.toString() +
+                                                    '/' +
+                                                    dateTime.year.toString(),
                                         selectedTimeSlotID,
                                         snapshot
                                             .data.address.customersAddressId,

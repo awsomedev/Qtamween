@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>307816314009-j5q939iv559mhi34hp396sq4b8egcoel.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.307816314009-j5q939iv559mhi34hp396sq4b8egcoel</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>307816314009-23fqkhdaaiuf86un36cnq652himtn7q7.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBexy0NYy81H8Mm_cDnyW4Dg2n54uPRAHQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>307816314009</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.qweb.qtamween</string>
+	<key>PROJECT_ID</key>
+	<string>qtamween</string>
+	<key>STORAGE_BUCKET</key>
+	<string>qtamween.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:307816314009:ios:ef6aa583b6bfcb6e8cb408</string>
+	<key>DATABASE_URL</key>
+	<string>https://qtamween.firebaseio.com</string>
+</dict>
+</plist>
